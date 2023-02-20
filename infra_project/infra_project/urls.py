@@ -1,7 +1,5 @@
-from django.urls import path, include
 from django.contrib import admin
-
-# app_name = 'infra_app'
+from django.urls import include, path
 
 urlpatterns = [
     path("", include("infra_app.urls", namespace="infra_app")),
