@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('&#128571;')
+    return HttpResponse('😻')
 
 
 def second_page(request):
